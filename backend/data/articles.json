@@ -1,0 +1,50 @@
+[
+  {
+    "id": "1",
+    "name": "Brasilien",
+    "pris": 179,
+    "bild": "kaffe1.png",
+    "lagersaldo": 87,
+    "info": "Brasilien är världens största producent av kaffe och är känd för sitt fylliga och nötiga kaffe med låg syra."
+  },
+  {
+    "id": "2",
+    "name": "Costa Rica",
+    "pris": 129,
+    "bild": "kaffe2.png",
+    "lagersaldo": 34,
+    "info": "Costa Ricanskt kaffe är känt för sin ljusa syra och milda smak, ofta med citrus- och blommiga undertoner."
+  },
+  {
+    "id": "3",
+    "name": "Etiopien",
+    "pris": 169,
+    "bild": "kaffe3.png",
+    "lagersaldo": 573,
+    "info": "Etiopien anses vara kaffets ursprungsland, och därifrån kommer många olika smakprofiler, inklusive de fruktiga och blommiga noterna i etiopiskt kaffe."
+  },
+  {
+    "id": "4",
+    "name": "Guatemala",
+    "pris": 149,
+    "bild": "kaffe4.png",
+    "lagersaldo": 3,
+    "info": "Guatemalanskt kaffe är känt för sin komplexitet och har en distinkt smakprofil som inkluderar choklad- och nötaktiga toner."
+  },
+  {
+    "id": "5",
+    "name": "Kenya",
+    "pris": 189,
+    "bild": "kaffe5.png",
+    "lagersaldo": 0,
+    "info": "Kaffe från Kenya är känt för sina ljusa syror och fruktiga smaker, med toner av svarta vinbär och citrusfrukter."
+  },
+  {
+    "id": "6",
+    "name": "Colombia",
+    "pris": 199,
+    "bild": "kaffe6.png",
+    "lagersaldo": 3,
+    "info": "Colombianskt kaffe är känt för sin balans mellan syra och kropp, med en stor variation av smaker beroende på region."
+  }
+]
