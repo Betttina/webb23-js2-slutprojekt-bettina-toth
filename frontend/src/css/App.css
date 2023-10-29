@@ -1,0 +1,396 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@500&family=Poppins&display=swap');
+
+
+
+.App {
+  max-width: 200rem;
+  margin: 0 auto;
+  padding: 0;
+  background-color: beige;
+  font-family: 'Poppins', sans-serif;
+
+}
+
+.page-title {
+  text-align: center;
+  position: center;
+}
+
+h1 {
+  text-shadow: 1px 2px 0 #e5e3db;
+
+}
+
+.App-header {
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.navbar-section {
+  background-color: beige;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: auto;
+}
+
+.nav-body {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.Logo {
+  width: 38vh;
+  height: auto;
+  margin-left: 5vh;
+  margin-top: 7vh;
+}
+
+/* div för produkt+varukorg knapp */
+.Buttons {
+  margin-right: 5rem;
+  background-color: transparent;
+  padding: 2rem; /* Utrymme inom div */
+  display: flex;
+  flex-direction: row; /* för att ha knapparna bredvid varandra*/
+  gap: 3rem; /* mellanrum mellan knapparna/länkarna */
+  border-radius: 1rem;
+}
+
+/* Produkter-knappen */
+.products-btn {
+  background-color: #524837;
+  color: white; /* textfärg */
+  padding: 20px 50px;
+  border: none;
+  cursor: pointer;
+  font-size: 3rem;
+  transition: background-color 0.3s ease-in-out, transform 0.1s ease-in-out;
+  border-radius: 2rem;
+  margin-left: 1rem;
+}
+
+.products-btn:hover {
+  background-color: #a96e2e;
+  transform: scale(1.05);
+}
+
+
+
+
+/* Varukorg-knappen */
+.cart-btn {
+  background-color: rgb(93, 138, 128); /*  bakgrundsfärg */
+  color: white; /* knappens textfärg */
+  padding: 20px 70px; /*storlek på kundvagns knappen*/
+  border: none;
+  cursor: pointer;
+  font-size: 3rem;
+  transition: background-color 0.3s ease-in-out, transform 0.1s ease-in-out;
+  border-radius: 2rem;
+  margin-left: 2rem;
+
+}
+h6 {
+  padding: 1rem;
+  font-size: 1.5rem;
+}
+
+.cart-btn:hover{
+  background-color: #5c945d;
+  transform: scale(1.05);
+}
+
+/* --------SEARCH BAR ----*/
+
+/* sökrutan */
+.search-container {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-bottom: 1rem;
+
+}
+
+.search-bar {
+  display: flex;
+  align-items: center;
+  background-color: #f2f2f2;
+  border-radius: 1rem;
+  padding: 0.6rem 0.7rem;
+  border-style: solid;
+  border-color: #b6aea5;
+  box-shadow: 5px 5px 12px rgb(211, 205, 197);
+  margin-right: 3rem;
+
+}
+
+input[type="text"] {
+  border: none;
+  background: none;
+  outline: none;
+  padding: 0.8rem;
+  font-size: 1.5rem;
+}
+
+.search {
+  background-color: #523b2c;
+  color: white;
+  border: none;
+  border-radius: 8rem;
+  padding: 1rem 3rem;
+  cursor: pointer;
+  font-size: 1.3rem;
+
+}
+
+.search:hover {
+  background-color: #af9478;
+  transition: all 0.3s ease;
+  transform: scale(1.05);
+}
+
+/* Styla sorteringsknappar */
+
+.sort-btns {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+  margin-right: 1.6rem;
+}
+.sort {
+  background-color: #a29b97;
+  color: white;
+  border: none;
+  border-radius: 9px;
+  padding: 1rem 2.5rem;
+  margin-right: 1.5rem;
+  cursor: pointer;
+  font-size: 1.26rem;
+
+}
+
+.sort:hover {
+  background-color: #5e5654;
+  transform: scale(1.1);
+}
+
+
+
+/* main */
+.hero-section {
+  background-color: transparent;
+  height: 10vh;
+  width: 100%;
+}
+
+/* sido titel div */
+.page-title {
+  background-color: transparent;
+  padding: 2rem;
+  border-radius: 9px;
+  margin: 3rem;
+}
+
+p {
+  font-size: 1rem;
+}
+
+/*huvud div för hemsidans kropp*/
+.div-body {
+  background-color: beige;
+  align-items: center;
+  justify-content: center;
+  height: auto;
+  width: 100%;
+  padding: 2rem;
+  box-sizing: border-box;
+}
+
+.product-section {
+  width: 100%;
+  height: auto;
+  background-color: #C3B68D;
+  padding-bottom: 5rem;
+}
+
+.products-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 2rem;
+  padding: 3rem;
+
+}
+
+
+.product-card {
+  background-color: #ffffff;
+  padding: 3rem;
+  text-align: center;
+  box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  margin: 2rem;
+
+}
+
+.product-card h2 {
+  font-weight: bold;
+}
+
+.product-card img {
+  margin-bottom: 3rem;
+  margin-top: 2rem;
+  width: 12rem;
+  height: auto;
+
+}
+
+.product-card p {
+  font-size: 1.5rem;
+}
+
+/* Tryckbar knapp */
+.active-button {
+  background-color: #5c945d;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 20px 40px;
+  font-size: 1.2rem;
+  cursor: pointer;
+  transition: background-color 0.2s;
+  margin: 2rem;
+}
+
+
+
+.active-button:hover {
+  background-color: #366b3d;
+}
+
+/* Icke-tryckbar knapp */
+.inactive-button {
+  background-color: #7d7f88 !important;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  padding: 20px 40px;
+  font-size: 1.2rem;
+  cursor: not-allowed;
+  margin: 2rem;
+}
+
+
+/* --------------cart page ------------*/
+
+.cart-container {
+  background-color: #f4f4f4;
+  padding: 2rem;
+  border: 2px solid #cec5b1;
+  border-radius: 7px;
+  box-shadow: 6px 9px 12px rgb(187, 174, 155);
+  margin: 1rem;
+
+}
+
+h4 {
+  padding: 1rem;
+  margin-bottom: 2rem;
+}
+
+.cart-tabell {
+  width: 100%;
+  border-collapse: collapse;
+
+}
+
+.cart-tabell th,
+.cart-tabell td {
+  border: 3px solid #8a7768;
+  padding: 1rem;
+  text-align: left;
+}
+
+/* tabellrubrik */
+.cart-tabell th {
+  background-color: #e0d3c4;
+  color: #362b06;
+  padding: 1rem;
+  text-align: left;
+  border-spacing: 5vh;
+
+}
+
+/* tabellceller */
+.cart-tabell td {
+  border: 3px solid #beb7a7;
+  padding: 1rem;
+  margin-right: 2rem;
+
+}
+
+
+
+th {
+  padding: 5vh;
+}
+
+td {
+
+
+}
+
+/* Hover-effekt för rader */
+.cart-tabell tr:hover {
+  background-color: #413f38;
+  color: #e6e6ec;
+  cursor: pointer;
+
+}
+
+.light:hover {
+  color: yellow;
+}
+
+#empty-btn {
+
+}
+
+#buy-btn {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  margin: 3rem;
+  width: 2rem;
+  height: 4rem;
+
+  padding: 3rem;
+
+  background: rgb(108, 178, 140);
+  background: linear-gradient(0deg, rgb(146, 185, 118) 0%, rgb(87, 133, 99) 100%);
+}
+
+
+
+.total-price {
+  height: 2rem;
+  line-height: 2rem;
+}
+
+.light {
+  color: #1e1f21;
+  font-size: 1.2rem;
+  font-weight: bold;
+
+}
+.thick {
+  color: #272727;
+  font-size: 1.4rem;
+  font-weight: bold;
+  float: right;
+
+}

@@ -1,0 +1,36 @@
+{
+  "name": "min-react-app",
+  "version": "1.0.0",
+  "description": "My first web-shop built in react.",
+  "scripts": {
+    "start": "parcel ./src/index.html",
+    "dev": "parcel ./src/index.html",
+    "clean": "del-cli ./dist ./.parcel-cache",
+    "build": "parcel build src/index.html --public-url ./ --dist-dir build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@fortawesome/free-solid-svg-icons": "^6.4.2",
+    "buffer": "^6.0.3",
+    "del-cli": "^4.0.1",
+    "parcel": "^2.10.0",
+    "process": "^0.11.10"
+  },
+  "browserslist": [
+    ">0.5%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
+  "dependencies": {
+    "@fortawesome/react-fontawesome": "^0.2.0",
+    "axios": "^1.5.1",
+    "nodemon": "^3.0.1",
+    "react": "^18.2.0",
+    "react-bootstrap": "^2.9.0",
+    "react-dom": "^18.2.0",
+    "underscore": "^1.13.6"
+  }
+}

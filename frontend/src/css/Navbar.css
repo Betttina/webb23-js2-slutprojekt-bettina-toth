@@ -1,0 +1,49 @@
+.navbar-section {
+  background-color: beige; /* Bakgrundsfärg */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+.Logo {
+  width: 100px; /* Ändra bredden på logotypen */
+  height: auto; /* Låt höjden skalas automatiskt */
+}
+
+.nav-body {
+  display: flex; /* Använd flexbox */
+  justify-content: space-between; /* Placera elementen på varsin sida av kontainern */
+  align-items: center; /* Centrera innehållet vertikalt */
+  padding: 10px 20px; /* Lägg till padding för att justera utseendet */
+  background-color: beige; /* Bakgrundsfärg */
+}
+
+/* Exempel på stilar för knappar eller länkar */
+.Buttons {
+  background-color: #e8ba88; /* Bakgrundsfärg */
+  color: black;
+  padding: 10px 20px; /* Utrymme inom knappen */
+  border: none; /* Ta bort kantlinjen */
+  cursor: pointer;
+  display: flex;
+  gap: 10px; /* Lägg till mellanrum mellan knapparna/länkarna */
+}
+
+/*Produkt-button*/
+.products-btn {
+  background-color: #9a7134; /* Brun bakgrundsfärg */
+  color: white; /* Vit textfärg */
+  padding: 10px 20px; /* Utrymme inom knappen */
+  border: none; /* Ta bort kantlinjen */
+  cursor: pointer;
+}
+
+/*Varukorgs-button*/
+.cart-btn {
+  background-color: #9a7134; /* Brun bakgrundsfärg */
+  color: white; /* Vit textfärg */
+  padding: 10px 20px; /* Utrymme inom knappen */
+  border: none; /* Ta bort kantlinjen */
+  cursor: pointer;
+}
